@@ -1,0 +1,28 @@
+.nav {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Font size */
+  }
+  
+  .nav ul li a:hover {
+    color: #333;
+    background-color: aliceblue;
+    padding: 10px;
+  }

@@ -1,0 +1,26 @@
+server:
+  port: 1010
+
+spring:
+  application:
+    name: Madegwa's BACKEnd
+
+  datasource:
+    username: dev
+    password: 1234
+    url: jdbc:mysql://localhost:3306/jwt
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: 'create-drop'
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+logging:
+  level:
+    org.springframework.security: TRACE
+    org.springframework.security.web.FilterChainProxy: TRACE
+    org.springframework.security.web.SecurityFilterChain: TRACE
